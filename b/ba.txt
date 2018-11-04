@@ -1,1 +1,3 @@
 testing inside directory b
+and then testing a bit more
+

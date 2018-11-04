@@ -29,6 +29,8 @@ public class VarastoTest {
     public void konstruktoriNegatiivinen() {
         Varasto toinen = new Varasto(-1);
         
+        //varaston koko on 0
+        
         assertEquals(0, toinen.getSaldo(), vertailuTarkkuus);
         assertEquals(0, toinen.paljonkoMahtuu(), vertailuTarkkuus);
     }

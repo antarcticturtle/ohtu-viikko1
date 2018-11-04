@@ -1,2 +1,0 @@
-this test is added from the second remote repository
-this is an addition from the first remote

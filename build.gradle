@@ -47,7 +47,7 @@ jacocoTestReport {
     afterEvaluate {
         classDirectories = files(classDirectories.files.collect {
             fileTree(dir: it,
-                    exclude: ['**/Main.java'])
+                    exclude: ['src/main/java/ohtu/main/Main.java'])
         })
     }
 }
